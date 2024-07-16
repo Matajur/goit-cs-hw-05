@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "homework-09"
+version = "0.1.0"
+description = "Asynchronous sorting of files based on file extension"
+authors = ["Matajur <126118653+Matajur@users.noreply.github.com>"]
+license = "Apache License 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiofiles = "^24.1.0"
+aiopath = "^0.7.7"
+aioshutil = "^1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

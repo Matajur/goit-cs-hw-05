@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "homework-10"
+version = "0.1.0"
+description = "Searching the most frequent words by URL"
+authors = ["Matajur <126118653+Matajur@users.noreply.github.com>"]
+license = "Apache License 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+matplotlib = "^3.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
